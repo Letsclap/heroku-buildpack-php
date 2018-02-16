@@ -1,7 +1,7 @@
 # Heroku PHP buildpack
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for PHP applications.  
-This buildpack automatically installs the PHP extensions [curve25519](https://github.com/mgp25/curve25519-php) and [protobuf](https://github.com/allegro/php-protobuf).
+This buildpack automatically installs the PHP extensions [curve25519](https://github.com/Letsclap/curve25519-php) and [protobuf](https://github.com/Letsclap/php-protobuf).
 
 It uses Composer for dependency management, supports PHP or HHVM (experimental) as runtimes, and offers a choice of Apache2 or Nginx web servers.
 

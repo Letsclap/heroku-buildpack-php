@@ -12,7 +12,7 @@ install_curve25519_ext() {
 	echo " "
 	echo "-----> Building curve25519..."
 
-	curl --silent -L https://codeload.github.com/mgp25/curve25519-php/tar.gz/master | tar xz
+	curl --silent -H "Authorization: token 24f9f96e20df8b2ad890214f0298c82282209013" -L https://codeload.github.com/Letsclap/curve25519-php/tar.gz/master | tar xz
 	pushd curve25519-php-master/
 	phpize >/dev/null
 	./configure --enable-curve25519 >/dev/null
