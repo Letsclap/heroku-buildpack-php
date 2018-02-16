@@ -12,7 +12,7 @@ install_protobuf_ext() {
     echo " "
     echo "-----> Building protobuf..."
 
-    curl --silent -H "Authorization: token 24f9f96e20df8b2ad890214f0298c82282209013" -L https://codeload.github.com/Letsclap/php-protobuf/tar.gz/master | tar xz
+    curl --silent -L https://codeload.github.com/Letsclap/php-protobuf/tar.gz/master | tar xz
     pushd php-protobuf-master/
     phpize >/dev/null
     ./configure --enable-protobuf >/dev/null
